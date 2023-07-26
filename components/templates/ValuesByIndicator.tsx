@@ -17,7 +17,7 @@ type Props = {
 }
 
 function ValuesByIndicatorTemplate({ loading, indicator, items, error }: Props) {
-  if (loading) return  <ActivityIndicator size="large" color={colors.PRIMARY} />
+  if (loading) return  <ActivityIndicator size='large' color={colors.PRIMARY} />
 
   if (error) return <ErrorNotice />
 

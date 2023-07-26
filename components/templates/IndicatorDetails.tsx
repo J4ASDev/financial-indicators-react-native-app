@@ -24,7 +24,7 @@ type Props = {
 function IndicatorDetailsTemplate({ loading, indicator, error, chart, currentDate, itShouldShowChart }: Props) {
   if (error) return <ErrorNotice />
 
-  if (loading) return  <ActivityIndicator size="large" color={colors.PRIMARY} />
+  if (loading) return  <ActivityIndicator size='large' color={colors.PRIMARY} />
 
   return (
     <View>
