@@ -6,7 +6,10 @@ const chartSettings: IChartSettings = {
   backgroundGradientToOpacity: .0,
   color: () => colors.PRIMARY,
   barPercentage: 0.5,
-  useShadowColorFromDataset: false // optional
+  useShadowColorFromDataset: false,
+  propsForLabels: {
+    fontSize: 10
+  }
 }
 
 export default chartSettings
