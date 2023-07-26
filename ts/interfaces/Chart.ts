@@ -3,5 +3,6 @@ export interface IChartSettings {
   backgroundGradientToOpacity: number
   color: () => string
   barPercentage: number,
-  useShadowColorFromDataset: boolean
+  useShadowColorFromDataset: boolean,
+  propsForLabels: object
 }
