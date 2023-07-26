@@ -2,7 +2,7 @@ export default function getCurrentDate(): number[] {
   try {
     const date = new Date()
 
-    const day: number = date.getDay()
+    const day: number = date.getDate()
     const month: number = date.getMonth()
     const year = date.getFullYear()
   
